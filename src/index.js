@@ -8,6 +8,7 @@ import VideoDetail from './components/video_detail';
 const API_KEY = 'AIzaSyCZvX6toSO3zuyxjxtmGYRHvNKcC0h5ndE';
 
 // Create a new component that produces HTML
+
 // const App = function() {
 // const App = () => {
 
@@ -48,9 +49,10 @@ class App extends Component{
   }
 }
 
-// Take this component's generated HTML and put it in
-// the DOM
-// must wrap components up in < />
-// the second parameter is the 'container'
+// Take this component's generated HTML and put it in the DOM
+
+// 1) must wrap components up in < /> ... <App /> is an 'instance' of our App
+// 2) the second parameter is the 'container' in our index.html where this React App is going to live
+
 
 ReactDOM.render(<App />, document.querySelector('.container'));
