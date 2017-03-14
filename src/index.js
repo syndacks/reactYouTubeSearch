@@ -7,10 +7,6 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 const API_KEY = 'AIzaSyCZvX6toSO3zuyxjxtmGYRHvNKcC0h5ndE';
 
-// Create a new component that produces HTML
-
-// const App = function() {
-// const App = () => {
 
 class App extends Component{
   constructor(props){
