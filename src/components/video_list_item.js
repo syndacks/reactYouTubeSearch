@@ -1,7 +1,9 @@
 import React from 'react';
 
 
-// {video} is the same as props.video
+// {video, onVideoSelect} notation is equivalent to
+  // const video = props.video
+  // const onVideoSelect = props.onVideoSelect
 const VideoListItem = ({video, onVideoSelect}) => {
   const imageUrl = video.snippet.thumbnails.default.url;
 

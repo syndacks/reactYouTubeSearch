@@ -1,6 +1,7 @@
 import React from 'react';
 
 const VideoDetail = ({video}) => {
+  // asynch fuckery! (React is trying to render before video data has been fetched...so need to throttle it)
   if(!video){
     return <div>Loading...</div>;
   }
